@@ -9,4 +9,4 @@ class Task(db.Model):
     timestamp = db.Column(db.DateTime, default=datetime.utcnow)
 
     def __repr__(self):
-        return '<Contact %r>' % self.name
+        return f"<Task:{self.id}>"
