@@ -1,0 +1,2 @@
+# flask-rest-api-dockerized
+Dockerized REST Api build with Flask, SQLAlchemy and Marshmallow
